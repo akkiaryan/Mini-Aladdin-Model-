@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { TrendingUp, TrendingDown, Activity, DollarSign, Target } from "lucide-react"
 import { Watchlist } from "@/components/watchlist"
 import { CandlestickChart } from "@/components/candlestick-chart"
-import { MiniAladinPanel } from "@/components/mini-aladin-panel"
+import { MiniAladdinPanel } from "@/components/mini-aladdin-panel"
 import { ProphetForecastPanel } from "@/components/prophet-forecast-panel"
 import { PriceAlertsPanel } from "@/components/price-alerts-panel"
 import { useBatchPredictions, useModelMetrics } from "@/hooks/use-predictions"
@@ -206,7 +206,7 @@ export default function AppDashboard() {
                     </Card>
                   </motion.div>
 
-                  {/* Right Column - Mini-Aladin and Price Alerts stacked */}
+                  {/* Right Column - Mini-Aladdin and Price Alerts stacked */}
                   <div className="col-span-3 flex flex-col gap-4 h-full">
                     <motion.div
                       initial={{ opacity: 0, x: 24 }}
@@ -214,7 +214,7 @@ export default function AppDashboard() {
                       transition={{ delay: 0.28 }}
                       className="flex-1"
                     >
-                      <MiniAladinPanel signal={signals[selectedSymbol]} />
+                      <MiniAladdinPanel signal={signals[selectedSymbol]} />
                     </motion.div>
 
                     <motion.div
@@ -275,7 +275,7 @@ export default function AppDashboard() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.28 }}
                   >
-                    <MiniAladinPanel signal={signals[selectedSymbol]} />
+                    <MiniAladdinPanel signal={signals[selectedSymbol]} />
                   </motion.div>
 
                   <motion.div

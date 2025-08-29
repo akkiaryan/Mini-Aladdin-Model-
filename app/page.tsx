@@ -35,7 +35,7 @@ export default function LandingPage() {
               <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="space-y-8">
                 <div className="space-y-4">
                   <Badge variant="secondary" className="w-fit bg-muted text-ink-muted">
-                    Mini-Aladin AI
+                    Mini-Aladdin AI
                   </Badge>
                   <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl text-balance text-ink">
                     Minimalist quant signals
@@ -108,7 +108,7 @@ export default function LandingPage() {
                   image: "/images/reading-expert.png",
                   alt: "Research and expertise",
                   title: "Model Insights",
-                  description: "Mini-Aladin prediction model with probability scores and regime detection.",
+                  description: "Mini-Aladdin prediction model with probability scores and regime detection.",
                 },
                 {
                   image: "/images/lending-hand.png",

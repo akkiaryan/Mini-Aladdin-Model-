@@ -1,6 +1,6 @@
-// Mock data for the Mini-Aladin prediction model
+// Mock data for the Mini-Aladdin prediction model
 
-export type AladinSignal = {
+export type AladdinSignal = {
   symbol: string
   probUp5d: number
   regime: "bull" | "bear" | "sideways"
@@ -11,7 +11,7 @@ export type AladinSignal = {
 
 export const watchlist = ["SBIN.NS", "RELIANCE.NS", "HDFCBANK.NS", "INFY.NS", "TCS.NS"]
 
-export const signals: Record<string, AladinSignal> = {
+export const signals: Record<string, AladdinSignal> = {
   "SBIN.NS": {
     probUp5d: 0.71,
     regime: "bull",

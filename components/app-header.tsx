@@ -25,7 +25,7 @@ export function AppHeader() {
             <span className="font-playfair text-xl font-bold hidden xs:block">QuantDesk</span>
             <span className="font-playfair text-lg font-bold xs:hidden">QD</span>
             <Badge variant="secondary" className="text-xs hidden sm:block">
-              Mini-Aladin
+              Mini-Aladdin
             </Badge>
           </Link>
 

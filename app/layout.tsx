@@ -19,7 +19,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: "QuantDesk - Minimalist Trading Platform",
-  description: "Grayscale quantitative trading platform with Mini-Aladin prediction model",
+  description: "Grayscale quantitative trading platform with Mini-Aladdin prediction model",
   generator: "v0.app",
 }
 
